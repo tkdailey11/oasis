@@ -1,9 +1,13 @@
+// https://github.com/Azure-Samples/cosmosdb-go-mongodb-quickstart/blob/master/todo.go
 package main
 
 import (
+	"fmt"
+
 	"github.com/tkdailey11/oasis/pkg/db"
 )
 
+
 func main() {
-	db.Test(db.Mongo)
+	fmt.Println(db.Mongo)
 }
